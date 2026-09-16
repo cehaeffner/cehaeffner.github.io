@@ -31,26 +31,35 @@ nav a {
     display: flex;
     gap: 50px;
     align-items: flex-start;
-    margin-bottom: 80px;
 }
 
-.photo {
+.photo-column {
     flex: 0 0 200px;
+    text-align: center;
 }
 
-.photo img {
+.profile-photo {
     width: 200px;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
-    border-radius: 50%;
+}
+
+.links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.links a {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 0.9em;
 }
 
 .about-text {
     flex: 1;
-}
-
-section {
-    margin-bottom: 70px;
 }
 
 footer {
