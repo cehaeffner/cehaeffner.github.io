@@ -1,0 +1,68 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.photo-column {
+    flex: 0 0 200px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.links {
+    margin-top: 12px;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links span {
+    margin: 0 5px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+footer {
+    margin-top: 80px;
+    font-size: 0.9em;
+}

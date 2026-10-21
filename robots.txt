@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://cehaeffner.github.io/sitemap.xml
