@@ -9,8 +9,12 @@ cv:
     respond to uncertainty, with a focus on mental health and stress. I use computational modeling of
     decision-making, reinforcement learning, smartphone/EMA data, and longitudinal approaches.
 
+  # Section titles must match the names the al_folio_cv renderer recognizes
+  # (Education, Honors and Awards, Publications, ...). Sections without a
+  # dedicated template (Grants, Invited Talks, etc.) use `bullet:` entries,
+  # which the renderer's generic fallback displays as a list.
   sections:
-    Education & Training:
+    Education:
       - institution: Yale University
         location: New Haven, CT
         area: Cognitive Psychology
@@ -41,19 +45,15 @@ cv:
           - "Advisor: Stacey M. Schaefer, PhD"
 
     Grants:
-      - title: Graduate Research Fellowship
-        date: 2023
-        awarder: National Science Foundation
-        summary: >
-          $159,000 — The Impact of Uncontrollable Stress and Reappraisal on Decision-Making: A Naturalistic
-          Investigation Using Artificial Intelligence and Ecological Momentary Assessment.
+      - bullet: >-
+          **Graduate Research Fellowship**, National Science Foundation (2023). $159,000 — The Impact of
+          Uncontrollable Stress and Reappraisal on Decision-Making: A Naturalistic Investigation Using
+          Artificial Intelligence and Ecological Momentary Assessment.
+      - bullet: >-
+          **Activity Grant**, Wu Tsai Institute, Yale University (2026). $2,000 — Yale Computational
+          Psychiatry Graduate Consortium.
 
-      - title: Activity Grant
-        date: 2026
-        awarder: Wu Tsai Institute, Yale University
-        summary: "$2,000 — Yale Computational Psychiatry Graduate Consortium."
-
-    Awards & Honors:
+    Honors and Awards:
       - title: Sterling Prize
         date: 2025
         awarder: Yale University
@@ -130,225 +130,135 @@ cv:
         url: https://doi.org/10.6084/m9.figshare.25732482.v1
 
     Invited Talks:
-      - title: Depression symptoms are associated with increased loss aversion
-        date: 2026
-        awarder: First Year Symposium, Yale University
-        summary: "New Haven, CT · September 2026"
-
-      - title: Risky decision-making across symptom severity in depression
-        date: 2026
-        awarder: Computational Clinical Science Lab, Yale University
-        summary: "New Haven, CT · April 2026"
-
-      - title: "Emotional intelligence and decision-making under uncertainty following acute stress: A potentially moderating role"
-        date: 2024
-        awarder: Translational Addiction Medicine Branch, NIDA
-        summary: "Baltimore, MD · April 2024"
-
-      - title: "Climate change, stress, and substance use: Will the emerging climate crisis increase use? Decision-making insights"
-        date: 2023
-        awarder: Translational Addiction Medicine Branch, NIDA
-        summary: "Baltimore, MD · October 2023"
-
-      - title: Associations between lifetime stressor exposure, brain stress circuitry, and cortisol responses to acute stress
-        date: 2023
-        awarder: Senior Honors Thesis Symposium, UW–Madison
-        summary: "Madison, WI · April 2023"
+      - bullet: >-
+          **Depression symptoms are associated with increased loss aversion.** First Year Symposium,
+          Yale University. New Haven, CT · September 2026.
+      - bullet: >-
+          **Risky decision-making across symptom severity in depression.** Computational Clinical Science
+          Lab, Yale University. New Haven, CT · April 2026.
+      - bullet: >-
+          **Emotional intelligence and decision-making under uncertainty following acute stress: A
+          potentially moderating role.** Translational Addiction Medicine Branch, NIDA. Baltimore, MD ·
+          April 2024.
+      - bullet: >-
+          **Climate change, stress, and substance use: Will the emerging climate crisis increase use?
+          Decision-making insights.** Translational Addiction Medicine Branch, NIDA. Baltimore, MD ·
+          October 2023.
+      - bullet: >-
+          **Associations between lifetime stressor exposure, brain stress circuitry, and cortisol
+          responses to acute stress.** Senior Honors Thesis Symposium, UW–Madison. Madison, WI · April 2023.
 
     Poster Presentations:
-      - title: Distinct depression symptom dimensions predict risk and loss aversion
-        date: 2026
-        awarder: Society for Neuroeconomics
-        summary: "New Haven, CT · October 2026"
-
-      - title: Distinct depression symptom dimensions predict risk and loss aversion
-        date: 2026
-        awarder: Computational Psychiatry Conference
-        summary: "New Haven, CT · July 2026"
-
-      - title: "Real-time, real challenges: A systematic review with meta-analysis of EMA adherence in youth with psychological disorders"
-        date: 2026
-        awarder: Anxiety and Depression Association of America Conference
-        summary: "Chicago, IL · April 2026"
-
-      - title: Relating emotional monitoring and control to metacognition and choice behavior in risky decision-making
-        date: 2025
-        awarder: Society for Neuroscience
-        summary: "San Diego, CA · November 2025"
-
-      - title: Computational measures of metacognition for risk and their relation to emotional monitoring and control
-        date: 2025
-        awarder: Society for Neuroeconomics
-        summary: "Boston, MA · October 2025"
-
-      - title: Emotional control predicts changes in decision-making under negative affect
-        date: 2025
-        awarder: Society for Neuroeconomics
-        summary: "Boston, MA · October 2025"
-
-      - title: Computational measures of metacognition for risk and their relation to emotional monitoring and control
-        date: 2025
-        awarder: NIH Postbaccalaureate Poster Day
-        summary: "Bethesda, MD · May 2025"
-
-      - title: Associations between lifetime stressor severity, amygdala and hippocampal volumes, and the acute stress response
-        date: 2025
-        awarder: Society for Affective Science
-        summary: "Portland, OR · accepted"
-
-      - title: Trait- and state-dependent multidimensional computational phenotyping
-        date: 2024
-        awarder: American College of Neuropsychopharmacology
-        summary: "Phoenix, AZ · December 2024"
-
-      - title: Choice stochasticity and cognitive imprecision across value tasks
-        date: 2024
-        awarder: Society for Neuroeconomics
-        summary: "Cascais, Portugal · October 2024"
-
-      - title: Emotional intelligence and the impact of acute stress on decision-making
-        date: 2024
-        awarder: Inaugural Hispanic Heritage Neuroscience Symposium
-        summary: "Washington, DC · September 2024"
-
-      - title: Emotional intelligence and the impact of acute stress on decision-making
-        date: 2024
-        awarder: NIMH Fellows' Scientific Training Day
-        summary: "Washington, DC · September 2024"
-
-      - title: Choice stochasticity and cognitive imprecision across value tasks
-        date: 2024
-        awarder: Cognitive Computational Neuroscience Conference
-        summary: "Cambridge, MA · August 2024"
-
-      - title: Towards a comprehensive understanding of the relationship between metacognition and emotional awareness
-        date: 2024
-        awarder: NIH Summer Poster Day
-        summary: "Bethesda, MD · August 2024"
-
-      - title: Emotional intelligence may moderate the impact of stress on decision-making under uncertainty
-        date: 2024
-        awarder: Computational Psychiatry Conference
-        summary: "Minneapolis, MN · July 2024"
-
-      - title: Emotional intelligence may moderate the impact of stress on decision-making
-        date: 2024
-        awarder: NIH Postbaccalaureate Poster Day
-        summary: "Washington, DC · May 2024 · Received Outstanding Poster Award"
-
-      - title: The effect of urban life stress on economic decision-making
-        date: 2024
-        awarder: NIH Postbaccalaureate Poster Day
-        summary: "Washington, DC · May 2024"
-
-      - title: Associations among lifetime stressor exposure, amygdala and hippocampal volume, and the acute stress response
-        date: 2023
-        awarder: Society for Neuroscience
-        summary: "Washington, DC · November 2023"
-
-      - title: A systematic literature review on EMA adherence in youth with psychopathology
-        date: 2023
-        awarder: NIMH Fellows' Scientific Training Day
-        summary: "Washington, DC · September 2023"
-
-      - title: Within-participant impacts of acute stress on risky and ambiguous decision-making
-        date: 2023
-        awarder: NIMH Fellows' Scientific Training Day
-        summary: "Washington, DC · September 2023"
-
-      - title: Uncovering the mechanisms behind altered decision-making in mental health to inform intervention
-        date: 2023
-        awarder: NIMH 75th Anniversary Kick-Off
-        summary: "Bethesda, MD · September 2023"
-
-      - title: Associations between lifetime stressor exposure, brain stress circuitry, and the acute stress response
-        date: 2023
-        awarder: Undergraduate Research Symposium
-        summary: "Madison, WI · April 2023"
-
-      - title: Associations between lifetime stressor exposure, brain stress circuitry, and the acute stress response
-        date: 2023
-        awarder: Wisconsin Symposium on Emotion
-        summary: "Madison, WI · April 2023"
+      - bullet: >-
+          **Distinct depression symptom dimensions predict risk and loss aversion.** Society for
+          Neuroeconomics. New Haven, CT · October 2026.
+      - bullet: >-
+          **Distinct depression symptom dimensions predict risk and loss aversion.** Computational
+          Psychiatry Conference. New Haven, CT · July 2026.
+      - bullet: >-
+          **Real-time, real challenges: A systematic review with meta-analysis of EMA adherence in youth
+          with psychological disorders.** Anxiety and Depression Association of America Conference.
+          Chicago, IL · April 2026.
+      - bullet: >-
+          **Relating emotional monitoring and control to metacognition and choice behavior in risky
+          decision-making.** Society for Neuroscience. San Diego, CA · November 2025.
+      - bullet: >-
+          **Computational measures of metacognition for risk and their relation to emotional monitoring
+          and control.** Society for Neuroeconomics. Boston, MA · October 2025.
+      - bullet: >-
+          **Emotional control predicts changes in decision-making under negative affect.** Society for
+          Neuroeconomics. Boston, MA · October 2025.
+      - bullet: >-
+          **Computational measures of metacognition for risk and their relation to emotional monitoring
+          and control.** NIH Postbaccalaureate Poster Day. Bethesda, MD · May 2025.
+      - bullet: >-
+          **Associations between lifetime stressor severity, amygdala and hippocampal volumes, and the
+          acute stress response.** Society for Affective Science. Portland, OR · accepted.
+      - bullet: >-
+          **Trait- and state-dependent multidimensional computational phenotyping.** American College of
+          Neuropsychopharmacology. Phoenix, AZ · December 2024.
+      - bullet: >-
+          **Choice stochasticity and cognitive imprecision across value tasks.** Society for
+          Neuroeconomics. Cascais, Portugal · October 2024.
+      - bullet: >-
+          **Emotional intelligence and the impact of acute stress on decision-making.** Inaugural Hispanic
+          Heritage Neuroscience Symposium. Washington, DC · September 2024.
+      - bullet: >-
+          **Emotional intelligence and the impact of acute stress on decision-making.** NIMH Fellows'
+          Scientific Training Day. Washington, DC · September 2024.
+      - bullet: >-
+          **Choice stochasticity and cognitive imprecision across value tasks.** Cognitive Computational
+          Neuroscience Conference. Cambridge, MA · August 2024.
+      - bullet: >-
+          **Towards a comprehensive understanding of the relationship between metacognition and emotional
+          awareness.** NIH Summer Poster Day. Bethesda, MD · August 2024.
+      - bullet: >-
+          **Emotional intelligence may moderate the impact of stress on decision-making under
+          uncertainty.** Computational Psychiatry Conference. Minneapolis, MN · July 2024.
+      - bullet: >-
+          **Emotional intelligence may moderate the impact of stress on decision-making.** NIH
+          Postbaccalaureate Poster Day. Washington, DC · May 2024 · Received Outstanding Poster Award.
+      - bullet: >-
+          **The effect of urban life stress on economic decision-making.** NIH Postbaccalaureate Poster
+          Day. Washington, DC · May 2024.
+      - bullet: >-
+          **Associations among lifetime stressor exposure, amygdala and hippocampal volume, and the acute
+          stress response.** Society for Neuroscience. Washington, DC · November 2023.
+      - bullet: >-
+          **A systematic literature review on EMA adherence in youth with psychopathology.** NIMH Fellows'
+          Scientific Training Day. Washington, DC · September 2023.
+      - bullet: >-
+          **Within-participant impacts of acute stress on risky and ambiguous decision-making.** NIMH
+          Fellows' Scientific Training Day. Washington, DC · September 2023.
+      - bullet: >-
+          **Uncovering the mechanisms behind altered decision-making in mental health to inform
+          intervention.** NIMH 75th Anniversary Kick-Off. Bethesda, MD · September 2023.
+      - bullet: >-
+          **Associations between lifetime stressor exposure, brain stress circuitry, and the acute stress
+          response.** Undergraduate Research Symposium. Madison, WI · April 2023.
+      - bullet: >-
+          **Associations between lifetime stressor exposure, brain stress circuitry, and the acute stress
+          response.** Wisconsin Symposium on Emotion. Madison, WI · April 2023.
 
     Teaching:
-      - title: "Lecturer — Computational Psychiatry Consortium Interest Group"
-        date: 2027
-        awarder: Yale University
-
-      - title: "Lecturer — YBDIC Computational Seminar Series"
-        date: 2027
-        awarder: Yale University
-
-      - title: "Teaching Fellow — PSYC 2358: Computational Modeling in Decision-Making"
-        date: 2026
-        awarder: Yale University
-
-      - title: "Peer Tutor — STAT 371: Statistics for Life Sciences"
-        date: 2022
-        awarder: University of Wisconsin–Madison
+      - bullet: >-
+          **Lecturer — Computational Psychiatry Consortium Interest Group**, Yale University (2027).
+      - bullet: >-
+          **Lecturer — YBDIC Computational Seminar Series**, Yale University (2027).
+      - bullet: >-
+          **Teaching Fellow — PSYC 2358: Computational Modeling in Decision-Making**, Yale University (2026).
+      - bullet: >-
+          **Peer Tutor — STAT 371: Statistics for Life Sciences**, University of Wisconsin–Madison (2022).
 
     Mentorship:
-      - title: Marcel Liu
-        date: 2026
-        awarder: CalTech Summer Undergraduate Research Fellowship
-
-      - title: Reena Wong
-        date: 2026
-        awarder: Yale Sneak Peek Mentorship Program
-        summary: "2025–2026"
-
-      - title: Faraz Hassan
-        date: 2024
-        awarder: NIH Undergraduate Scholarship Program
+      - bullet: >-
+          **Marcel Liu** — CalTech Summer Undergraduate Research Fellowship (2026).
+      - bullet: >-
+          **Reena Wong** — Yale Sneak Peek Mentorship Program (2025–2026).
+      - bullet: >-
+          **Faraz Hassan** — NIH Undergraduate Scholarship Program (2024).
 
     Service:
-      - title: "Lead Organizer — Computational Psychiatry Consortium Interest Group"
-        date: 2026
-        awarder: Yale University
-        summary: "2026–present"
-
-      - title: "Member — Cognitive Current Works Student Organizing Committee"
-        date: 2026
-        awarder: Yale University
-        summary: "2026–present"
-
-      - title: "Member — Psychology Department DEI Committee"
-        date: 2025
-        awarder: Yale University
-        summary: "2025–present"
-
-      - title: "Local Organizer & Student Committee Lead"
-        date: 2026
-        awarder: Computational Psychiatry Conference
-
-      - title: "Reviewer — Wu Tsai Undergraduate Summer Fellowship"
-        date: 2026
-        awarder: Yale University
-
-      - title: "Co-Lead — Yale Cognitive Area Interview Day"
-        date: 2026
-        awarder: Yale University
-
-      - title: "Reviewer — James S. Jackson Memorial Award"
-        date: 2025
-        awarder: National Institute of Mental Health
-        summary: "2023–2025"
-
-      - title: "Co-Founder — Brainy Book Club"
-        date: 2023
-        awarder: University of Wisconsin–Madison
-        summary: "2021–2023"
+      - bullet: >-
+          **Lead Organizer — Computational Psychiatry Consortium Interest Group**, Yale University
+          (2026–present).
+      - bullet: >-
+          **Member — Cognitive Current Works Student Organizing Committee**, Yale University (2026–present).
+      - bullet: >-
+          **Member — Psychology Department DEI Committee**, Yale University (2025–present).
+      - bullet: >-
+          **Local Organizer & Student Committee Lead**, Computational Psychiatry Conference (2026).
+      - bullet: >-
+          **Reviewer — Wu Tsai Undergraduate Summer Fellowship**, Yale University (2026).
+      - bullet: >-
+          **Co-Lead — Yale Cognitive Area Interview Day**, Yale University (2026).
+      - bullet: >-
+          **Reviewer — James S. Jackson Memorial Award**, National Institute of Mental Health (2023–2025).
+      - bullet: >-
+          **Co-Founder — Brainy Book Club**, University of Wisconsin–Madison (2021–2023).
 
     Professional Memberships:
-      - title: Society for Computational Psychiatry
-        date: 2026
-
-      - title: Society for Neuroeconomics
-        date: 2026
-
-      - title: Society for Affective Science
-        date: 2025
-
-      - title: Society for Neuroscience
-        date: 2023
+      - bullet: "Society for Computational Psychiatry (since 2026)."
+      - bullet: "Society for Neuroeconomics (since 2026)."
+      - bullet: "Society for Affective Science (since 2025)."
+      - bullet: "Society for Neuroscience (since 2023)."

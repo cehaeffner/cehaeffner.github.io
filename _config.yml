@@ -6,8 +6,6 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Clara
 middle_name: E
 last_name: Haeffner
-contact_note: >
-  The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Clara E. Haeffner — PhD student in Cognitive Psychology at Yale University and NSF GRFP Fellow, studying how affect shapes the way we perceive and respond to uncertainty.
 footer_text: >

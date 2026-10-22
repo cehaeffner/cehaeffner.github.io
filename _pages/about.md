@@ -31,4 +31,4 @@ Hi! I'm Clara, a 2nd-year PhD student in Cognitive Psychology at Yale University
 
 My work examines how affect shapes the ways we perceive and respond to uncertainty, with a particular interest in contexts like mental health disorders and stress. I use computational modeling of decision-making, reinforcement learning, smartphone data, and longitudinal approaches to better understand how these processes differ across individuals and how they change over time.
 
-Before Yale, I worked with Silvia Lopez-Guzman as a postbac IRTA at the National Institute of Mental Health (NIMH), and completed a thesis with Stacey Schaefer and Richie Davidson at the University of Wisconsin–Madison.
+Before Yale, I worked with <a href="https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/edb/cdn" style="color: inherit; text-decoration: underline;">Silvia Lopez-Guzman</a> as a postbac IRTA at the National Institute of Mental Health (NIMH), and completed a thesis with Stacey Schaefer and Richie Davidson at the University of Wisconsin–Madison.
