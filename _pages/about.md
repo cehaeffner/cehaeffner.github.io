@@ -31,4 +31,10 @@ Hi! I'm Clara, a 2nd-year PhD student in Cognitive Psychology at Yale University
 
 My work examines how affect shapes the ways we perceive and respond to uncertainty, with a particular interest in contexts like mental health disorders and stress. I use computational modeling of decision-making, reinforcement learning, smartphone data, and longitudinal approaches to better understand how these processes differ across individuals and how they change over time.
 
+Questions I'm thinking about:
+- How do mental health conditions like depression and anxiety shape decisions under uncertainty?
+- How do our emotions and stress in daily life shape the choices we make?
+- What can signals like mood and language reveal about why we make the choices we do in the moment?
+- How do we develop our preferences towards uncertainty from past experience?
+
 Before Yale, I worked with <a href="https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/edb/cdn" style="color: inherit; text-decoration: underline;">Silvia Lopez-Guzman</a> as a postbac IRTA at the National Institute of Mental Health (NIMH), and completed a thesis with <a href="https://aging.wisc.edu/afchron/" style="color: inherit; text-decoration: underline;">Stacey Schaefer</a> and <a href="https://centerhealthyminds.org/" style="color: inherit; text-decoration: underline;">Richie Davidson</a> at the University of Wisconsin–Madison.
